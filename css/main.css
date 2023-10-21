@@ -87,12 +87,20 @@ h1{
     margin-bottom: 80px;
 }
 .about__wrapper {
+    display: flex;
+    justify-content: space-between;
+
+}
+.about__wrapper_bot{
+    display: flex;
+    justify-content: flex-end;
 }
 .about__wrapper_descr {
     position: relative;
     font-size: 36px;
     font-weight: 600;
     width: 397px;
+    margin-right: 131px;
 }
 .about__wrapper_descr::after{
     position: absolute;
@@ -106,11 +114,24 @@ h1{
     left: 0;
     bottom: 0;
 }
-.about__wrapper_items {
+.about__wrapper_item{
+    width: 340px;
+    margin-bottom: 80px;
+    margin-right: 58px;
 }
-.about__wrapper_item {
+.about__wrapper_item img{
+    margin-bottom: 20px;
 }
 .item__title {
+    
+    font-feature-settings: 'liga' off;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 106%;
+    margin-bottom: 10px;
 }
 .item__descr {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 120%; 
 }
