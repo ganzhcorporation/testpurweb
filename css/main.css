@@ -271,3 +271,100 @@ h1{
     border-radius: 30px;
     background: var(--grayscale-06, #F5F5F5);
 }
+.one{
+    background-image: url(/img/1.png);
+    background-repeat: no-repeat;
+}
+.two{
+    background-image: url(/img/2.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+.three{
+    background-image: url(/img/3.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+.four{
+    background-image: url(/img/4.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+.one .why__title{
+    padding: 40px 40px 20px 330px;
+}
+.one .why__descr{
+    padding: 0 70px 50px 330px;
+}
+.two .why__title{
+    padding: 40px 90px 20px 40px;
+}
+.two .why__descr{
+    padding: 0 90px 86px 40px;
+}
+.three .why__title{
+    padding: 40px 67px 20px 40px;
+}
+.three .why__descr{
+    padding: 0 200px 50px 40px;
+}
+.four .why__title{
+    padding: 40px 300px 20px 40px;
+}
+.four .why__descr{
+    padding: 0 290px 86px 40px;
+}
+.cta {
+    background-color: #F5F5F5;
+    padding: 100px 0;
+    color: #000000;
+}
+
+.offer{
+    padding: 60px 0;
+    border-radius: 60px;
+    border: 1px solid var(--grayscale-04, #CFCFCF);
+    margin-bottom: 100px;
+}
+.offer .button {
+    margin: 0 auto;
+}
+.offer .button:hover{
+    cursor: pointer;
+    color:bisque;
+}
+.offer_title {
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 106%; /* 67.84px */
+    margin-bottom: 40px;
+}
+.brand__wrapper {
+    display: flex;
+    margin-bottom: 100px;
+}
+.brand__content {
+    width: 822px;
+}
+.brand__title {
+    font-feature-settings: 'liga' off;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 106%; /* 101.76px */
+}
+.brand__descr {
+    width: 537px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 120%; /* 24px */
+    margin-top: 20px;
+}
+.brand__socials {
+    display: flex;
+}
+
