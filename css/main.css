@@ -346,6 +346,7 @@ h1{
 }
 .brand__wrapper {
     display: flex;
+    gap: 33px;
     margin-bottom: 100px;
 }
 .brand__content {
@@ -366,5 +367,25 @@ h1{
 }
 .brand__socials {
     display: flex;
+    gap: 33px;
 }
-
+.facebook {
+    padding-top: 45px;
+}
+.twitter {
+    padding-top: 137px;
+}
+.Instagram {
+    padding-top: 45px;
+}
+.tiktok{
+    padding-top: 137px;
+}
+.logos img{
+    display: block;
+}
+.logos{
+    display: flex;
+    gap: 90px;
+    margin-bottom: 100px;
+}
