@@ -387,7 +387,6 @@ h1{
 .logos{
     display: flex;
     gap: 90px;
-    margin-bottom: 100px;
 }
 footer{
     padding: 40px 0 20px 0;
