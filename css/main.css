@@ -3,6 +3,7 @@ font-family: 'Outfit', sans-serif;
 width: 1440px;
 background-color: #181818;
 color: #FFF;
+margin: 0 auto;
 }
 .container{
     max-width: 1320px;
