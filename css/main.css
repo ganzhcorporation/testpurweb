@@ -1,9 +1,8 @@
 body{
 font-family: 'Outfit', sans-serif;
-width: 1440px;
+/* width: 1440px; */
 background-color: #181818;
 color: #FFF;
-margin: 0 auto;
 }
 .container{
     max-width: 1320px;
@@ -388,6 +387,7 @@ h1{
 .logos{
     display: flex;
     gap: 90px;
+    margin-bottom: 100px;
 }
 footer{
     padding: 40px 0 20px 0;
@@ -442,4 +442,58 @@ footer{
 .rightsItems {
     display: flex;
     gap: 20px;
+}
+.burger{
+    display: none;
+}
+.none{
+    display: none;
+}
+@media(max-width:375px){
+    .container{
+        width: 375px;
+        margin: unset;
+
+    }
+    .logoBtnRow{
+        margin-top: unset;
+        padding: 22px 24px;
+        align-items: center;
+    }
+    .logoImg{
+        height: 39px;
+    }
+    .logoBtnRow .button{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+    .homePageRow {
+        flex-direction: column;
+        align-items: center;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .homePageRow__descr p {
+        font-size: 16px;
+    }
+    .homePageRow__descr {
+        width: 343px;
+        padding: 67px 16px 124px 16px;
+    }
+
+    .homePageRow__descr .button {
+        width: auto;
+        text-align: center;
+    }
+    .mainPhoto img{
+        width: 325px;
+        height: 259px;
+        flex-shrink: 0;
+    }
+    .mainPhoto{
+        padding: 0 0 40px 50px;
+    }
 }
